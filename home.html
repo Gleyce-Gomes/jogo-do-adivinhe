@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Número Misterioso</title>
+</head>
+<body>
+    <img src="img/bruxa1.png" class="img-esquerda" alt="Bruxa">
+
+    <div class="container">
+        <h1>Adivinhe o Número</h1>
+        <p id="txtpense">Pense em um número entre 1 e 100 e tente adivinhar!</p>
+
+        <input type="number" id="palpite" min="1" max="100" placeholder="Digite seu palpite">
+        <div class="botoes">
+            <button id="btn">Tentar</button>
+            <button id="btn-reiniciar">Reiniciar</button>
+        </div>
+        <p id="mensagem"></p>
+        <p id="tentativas"></p>
+
+    </div>
+
+    <img src="img/bruxo.png" class="img-direita" alt="Bruxo">
+
+    <script src="script.js"></script>
+</body>
+</html>
