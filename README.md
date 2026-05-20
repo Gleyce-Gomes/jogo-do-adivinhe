@@ -11,6 +11,8 @@ Jogo de adivinhação feito com HTML, CSS e JavaScript. O objetivo é descobrir 
 </p>
 
 ---
+## 🔗 Acesse o Jogo aqui:
+https://gleyce-gomes.github.io/jogo-do-adivinhe/
 
 ## 📌 Sobre
 
